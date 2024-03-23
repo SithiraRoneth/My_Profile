@@ -1,0 +1,88 @@
+.body{
+    background-color: black;
+}
+.header{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header>header>nav{
+    position: absolute;
+    right: 20px;
+    top: 4%;
+    padding: 0;
+}
+.header>header>nav>b>a{
+    margin-right:40px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.header>header>nav>b>a:hover{
+    color: #40A2E3;
+}
+.header>header>div>div{
+    top: 250px;
+    left: 50px;
+    position: relative;
+    color: white;
+}
+.header>header>div>div>h4:first-child{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+}
+.header>header>div>div>h1{
+    font-size: 50px;
+    font-family: 'Inria Serif', serif;
+}
+.header>header>div>div>h4:nth-last-child(2){
+    font-size: 30px;
+}
+.header>header>div>div>h1>span.roneth{
+    color: #40A2E3;
+}
+.header>header>div>div>a>input.cv{
+    background-color:#40A2E3;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.cv:before{
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+.cv:hover{
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+.header>header>img#photo{
+    right: 5%;
+    position: absolute;
+    top: 25%;
+    width: 600px;
+    aspect-ratio: 1/1;
+}
