@@ -1,0 +1,36 @@
+.web-center {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.web-footer {
+    padding: 3em 0;
+    background: black;
+    color: #ffffff;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+}
+
+.web-footer.web-center.copyright {
+    display: none;
+}
+
+.web-footer .footer-block {
+    display: inline-block;
+    margin: 0 0.3%;
+}
+
+.web-footer .footer-block h4 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.web-center p {
+    line-height: 1.6;
+    font-size: 14px;
+    margin-top: 0.01%;
+}
