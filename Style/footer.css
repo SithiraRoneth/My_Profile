@@ -34,3 +34,28 @@
     font-size: 14px;
     margin-top: 0.01%;
 }
+
+/*Media Query*/
+@media  (min-width: 800px){
+    .web-footer , .footer-nav {
+        display: flex;
+    }
+
+    .web-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .web-footer {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
