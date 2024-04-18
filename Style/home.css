@@ -87,3 +87,26 @@
     top: 9%;
     position: absolute;
 }
+
+    /* Tab */
+@media screen and (max-width: 768px) {
+
+    .home>main{
+        height: 55%;
+    }
+    .home>main>div>div:first-child>h4 ,
+    .home>main>div>div:nth-child(3)>h4{
+        font-size: 20px;
+    }
+    .home>main>div>div:nth-child(2)>h1,
+    .home>main>div>div:nth-child(2)>h1>span{
+        font-size: 40px;
+    }
+    .home>main>div>div:nth-child(4)>a>button.cv{
+        height:40px ;
+    }
+    .home>main>div>div:nth-child(5)>img#imgR {
+        width: 320px;
+        top: 20%;
+    }
+}
