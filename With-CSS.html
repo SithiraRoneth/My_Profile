@@ -13,75 +13,66 @@
     <link rel="stylesheet" href="Style/Navigation.css">
     <link rel="stylesheet" href="Style/home.css">
     <link rel="stylesheet" href="Style/About.css">
-    <link rel="stylesheet" href="Style/Contact-me.css">
-    <link rel="stylesheet" href="Style/footer.css">
+<!--    <link rel="stylesheet" href="Style/About.css">-->
+<!--    <link rel="stylesheet" href="Style/Contact-me.css">-->
+<!--    <link rel="stylesheet" href="Style/footer.css">-->
 </head>
 <body>
-  <!--Navigation Bar-->
-<header class="header">
-  <h1 class="logo"><a href="#"><img id="log" src="assets/img/logo.png" alt="logo" title="logo"></a></h1>h1
-  <ul class="main-nav">
-    <li><a href="#Home">Home</a></li>
-    <li><a href="#About">About</a></li>
-    <li><a href="#Gallery">Gallery</a></li>
-    <li><a href="#Contact me">Contact me</a></li>
-  </ul>
+<header id="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <h1 class="logo"><a href="#"></a></h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="title" id="Home">
+        <img class="HomeImg" src="assets/img/me.png">
+        <div><span class="typcn typcn-heart-outline icon heading"></span></div>
+        <h2 class="intro">Hello, my name is </h2>
+        <h1 class="name">Sithira <span>Roneth</span></h1>
+        <h2 class="introduction">I am a Software Engineer</h2>
+        <a href="assets/IJSE.png"><button class="cvButton">Download CV</button></a>
+        <a class="smoothscroll" href="#about">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
+    </div>
+    <!--  <a class="smoothscroll" href="#about">-->
+    <div class="scroll-down"></div>
 </header>
 
-<!--Home-->
-<section class="home">
-    <main id="Home">
-        <div>
-            <div>
-                <h4>Hello, My Name is</h4>
-            </div>
-
-            <div>
-                <h1>
-                    SITHIRA
-                    <span>RONETH</span>
-                </h1>
-            </div>
-
-            <div>
-                <h4>I am a Software Engineer</h4>
-            </div>
-
-            <div>
-                <a href="assets/doc/Sithira%20Roneth%20CV.pdf"><button class="cv">Download CV</button></a>
-            </div>
-
-            <div>
-                <img src="assets/img/me.png" alt="sitihira" title="Sithira" id="imgR">
-            </div>
-        </div>
-
-    </main>
-</section>
 
 <!--About-->
-<!--<section class="about">
-    <div>
-          <h3 id="About">About me</h3>
-          <h2>Tech aficionado, coding dreams into reality</h2>
-
-          <p>
-              I embarked on my journey as a software engineer in 2023 and dedicated the majority of my working hours over the past few years to the conception, programming, and management of websites.
-          </p>
-          <p>
-              I have cultivated the essential skills and knowledge needed to ensure the triumph of your projects. I derive immense satisfaction from every facet of the design process, relishing in the collaborative discussions that contribute to its success
-          </p>
-
-          <div>
-              <h1>01+</h1>
-              <h4>years of experience</h4>
-          </div>
-
-          <img src="assets/img/about-1.jpg" title="Sithira Roneth" width="150">
-          <img src="assets/img/about2.jpg" title="Sithira Roneth" width="250">
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <h5 class="sectionName" id="About">About me</h5>
+            <h1 class="description">Tech aficionado, coding <br>
+                dreams into reality</h1>
+            <div class="block"></div>
+            <h1 class="experience">0 1 +</h1>
+            <h1 class="experience">0 1 +</h1>
+            <p>I embarked on my journey as a software engineer in 2023 and dedicated the majority of my working hours over the past few years to the conception, programming, and management of websites.<br><br>
+                I have cultivated the essential skills and knowledge needed to ensure the triumph of your projects. I derive immense satisfaction from every facet of the design process, relishing in the collaborative discussions that contribute to its success.</p>
+            <img class="aboutLImg" src="assets/img/about2.jpg">
+            <img class="aboutSImg" src="assets/img/about-1.jpg">
+        </div>
     </div>
-</section>-->
-
+</section>
 <!--Contact-->
 <!--<section class="con" id="Contact me">
     <div>
