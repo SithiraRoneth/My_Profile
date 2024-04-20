@@ -16,7 +16,7 @@
     position: absolute;
     color: #FFFFFF;
     top: 10%;
-    left: 10%;
+    left: 7%;
     letter-spacing: 5px;
 }
 
@@ -24,7 +24,7 @@
     position: absolute;
     color: #40A2E3;
     top: 18%;
-    left: 9.8%;
+    left: 7%;
     letter-spacing: 8px;
     justify-content: space-between;
 }
@@ -32,7 +32,7 @@
 section>div>div>p {
     position: absolute;
     top: 38%;
-    left: 10%;
+    left: 7%;
     right: 65%;
     color: #FFFFFF;
 }
