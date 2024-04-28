@@ -1,0 +1,80 @@
+.about>div.container:nth-child(4){
+    background: black;
+}
+.sectionEdu{
+    position: absolute;
+    color: #40A2E3;
+    top: 5%;
+    right: 5%;
+}
+.Edu{
+    position: absolute;
+    color: #FFFFFF;
+    top: 14%;
+    right: 5%;
+    letter-spacing: 8px;
+    justify-content: space-between;
+}
+.about>div.container:nth-child(4)>div:first-child>h1>span{
+    position: absolute;
+    top: 90%;
+    right: 0;
+}
+.about>div.container:nth-child(4)>div:nth-child(2){
+    border: 3px solid #40A2E3;
+    width: 20%;
+    height: 55%;
+    position: absolute;
+    top: 23%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+#Ask{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.about>div.container:nth-child(4)>div:nth-child(3){
+    border: 3px solid #40A2E3;
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top: 23%;
+    left: 18%;
+    bottom: 0;
+    margin: auto;
+}
+#ijse{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.about>div.container:nth-child(4)>div:nth-child(4){
+    border: 3px solid #40A2E3;
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top: 23%;
+    right: 18%;
+    bottom: 0;
+    margin: auto;
+}
+#aq{
+    width: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
