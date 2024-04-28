@@ -20,8 +20,10 @@
     top: 90%;
     right: 0;
 }
+
+/* ASK */
 .about>div.container:nth-child(4)>div:nth-child(2){
-    border: 3px solid #40A2E3;
+    border: 2px solid #40A2E3;
     width: 20%;
     height: 55%;
     position: absolute;
@@ -34,12 +36,31 @@
 #Ask{
     width: 50%;
     position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+    top: 15%;
+    left: 24%;
     bottom: 0;
-    margin: auto;
+    /*margin: auto;*/
 }
+.about>div.container:nth-child(4)>div:nth-child(2)>h4{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: "Inria Serif", serif;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    right: 0;
+    bottom: 5%;
+    letter-spacing: 2px;
+}
+.about>div.container:nth-child(4)>div:nth-child(2)>h4>span{
+    right: 0;
+    top: 40%;
+    left: 28%;
+    bottom: 2%;
+    position: absolute;
+}
+
+/* IJSE */
 .about>div.container:nth-child(4)>div:nth-child(3){
     border: 3px solid #40A2E3;
     width: 20%;
@@ -51,7 +72,7 @@
     margin: auto;
 }
 #ijse{
-    width: 50%;
+    width: 70%;
     position: absolute;
     top: 0;
     right: 0;
@@ -59,6 +80,8 @@
     bottom: 0;
     margin: auto;
 }
+
+/*AQUINAS*/
 .about>div.container:nth-child(4)>div:nth-child(4){
     border: 3px solid #40A2E3;
     width: 20%;
@@ -70,7 +93,7 @@
     margin: auto;
 }
 #aq{
-    width: 70%;
+    width: 50%;
     position: absolute;
     top: 0;
     right: 0;

@@ -1,0 +1,23 @@
+.about>div.container:nth-child(5){
+    background: #151515;
+}
+.skillSec{
+    position: absolute;
+    color: #FFFFFF;
+    top: 8%;
+    left: 7%;
+    letter-spacing: 5px;
+}
+.skill{
+    position: absolute;
+    color: #40A2E3;
+    top: 16%;
+    left: 7%;
+    letter-spacing: 8px;
+    justify-content: space-between;
+}
+.about>div.container:nth-child(5)>div:first-child>h1>span{
+    position: absolute;
+    top: 90%;
+    left: 0;
+}
