@@ -62,7 +62,7 @@
 
 /* IJSE */
 .about>div.container:nth-child(4)>div:nth-child(3){
-    border: 3px solid #40A2E3;
+   /* border: 3px solid #40A2E3;*/
     width: 20%;
     height: 50%;
     position: absolute;
@@ -78,10 +78,28 @@
     left: 17%;
     bottom: 0;
 }
+.about>div.container:nth-child(4)>div:nth-child(3)>h4{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: "Inria Serif", serif;
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    right: 0;
+    bottom: 5%;
+    letter-spacing: 2px;
+}
+.about>div.container:nth-child(4)>div:nth-child(3)>h4>span{
+    right: 0;
+    top: 40%;
+    left: 18%;
+    bottom: 2%;
+    position: absolute;
+}
 
 /*AQUINAS*/
 .about>div.container:nth-child(4)>div:nth-child(4){
-    border: 3px solid #40A2E3;
+    /*border: 3px solid #40A2E3;*/
     width: 20%;
     height: 50%;
     position: absolute;
@@ -96,4 +114,15 @@
     top: 18%;
     right: 24%;
     bottom: 0;
+}
+.about>div.container:nth-child(4)>div:nth-child(4)>h4{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: "Inria Serif", serif;
+    position: absolute;
+    top: 67%;
+    left: 21%;
+    right: 0;
+    bottom: 5%;
+    letter-spacing: 2px;
 }
