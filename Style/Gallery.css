@@ -1,0 +1,58 @@
+.gallery{
+    background: black;
+    width: 100%;
+    height: 130vh;
+}
+.section-gallery{
+    position: absolute;
+    color: #40A2E3;
+    top: 10%;
+    right: 7%;
+}
+.gallery-desc{
+    position: absolute;
+    color: #FFFFFF;
+    top: 18%;
+    right: 7%;
+    letter-spacing: 8px;
+    justify-content: space-between;
+}
+.gallery>div.container>div:first-child>h1>span{
+    position: absolute;
+    top: 90%;
+    right: 0;
+}
+.gallery>div.container>div:nth-child(2){
+    border: 2px solid white;
+    top: 30%;
+    left: 7%;
+    width: 85%;
+    height: 65%;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr
+}
+.gallery>div.container>div:nth-child(2)>div{
+    position: relative;
+    border: 2px solid white;
+}
+#img-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
+}
+#img-7{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    bottom: 0;
+    width: 90%;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+

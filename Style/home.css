@@ -18,7 +18,6 @@ body {
 
 section {
     /*background: linear-gradient(272.8deg, #000000 4%, #101010 65%);*/
-
 }
 
 /* Grid
@@ -188,7 +187,7 @@ h6 {
     letter-spacing: 0;
 }
 
-/* Larger than phablet */
+/* Larger than tablet */
 @media (min-width: 550px) {
     h1 {
         font-size: 4.0rem;
