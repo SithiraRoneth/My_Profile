@@ -11,27 +11,27 @@ h1,h2,h3,h4{
 .sectionContact{
     position: absolute;
     color: #FFFFFF;
-    font-size: 8rem;
+    font-size: 6rem;
     top: 40%;
     left: 7%;
 }
 .con1{
     position: absolute;
-    font-size: 4rem;
+    font-size: 3rem;
     top: 60%;
     left: 10%;
 }
 .con2{
     position: absolute;
-    font-size: 3.8rem;
-    top: 72%;
+    font-size: 2.8rem;
+    top: 68%;
     left: 15%;
 }
 .con2>span{
     position: absolute;
     left: 0;
     top: 100%;
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     letter-spacing: 4px;
 }
 .feedback{
