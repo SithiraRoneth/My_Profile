@@ -1,29 +1,101 @@
 /* Why choose me sub section
 *********************************************************************
 */
-
-.about>div.container:nth-child(2){
-    background: black;
+.about .container:nth-child(2) {
+    background-color: #0E0E0E;
 }
-.sectionChoose{
-    position: absolute;
+
+.about .container:nth-child(2) h5 {
     color: #40A2E3;
-    top: 9%;
-    right: 5%;
+    right: 10%;
+    text-align: right;
 }
 
-.desc{
-    position: absolute;
+.about .container:nth-child(2) h2 {
     color: #FFFFFF;
-    top: 18%;
-    right: 5%;
-    letter-spacing: 8px;
-    justify-content: space-between;
+    text-align: right;
+    right: 10%;
 }
-.about>div.container:nth-child(2)>div:first-child>h1>span{
+
+.about .container .service {
+    background: rgb(56, 54, 54);
+    background: linear-gradient(168deg, rgb(56, 54, 54) 0%, rgb(14, 14, 14) 50%);
+    height: 55%;
+    border-radius: 10px  10px 10px 10px;
     position: absolute;
-    right: 0;
 }
-.about>div.container:nth-child(2)>div:nth-child(2){
-    position: relative;
+
+.container:nth-child(2) .row {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /*padding: 5% 5% 5% 5%;*/
+    /*align-items: center;*/
+    top: 40%;
+    left: 8%;
+    right: 10%;
+    width: 60%;
+    height: 50%;
+    /*-webkit-transition: 0.3s ease-in-out;*/
+    /*-moz-transition: 0.3s ease-in-out;*/
+    /*-ms-transition: 0.3s ease-in-out;*/
+    /*-o-transition: 0.3s ease-in-out;*/
+    /*transition: 0.3s ease-in-out;*/
+}
+
+.intro-block {
+    border-radius: 5% 5% 5% 5%;
+    padding: 10% 2% 2% 2%;
+    background: linear-gradient(168deg, rgb(56, 54, 54) 0%, rgb(14, 14, 14) 50%);
+    position: absolute;
+    width: 25%;
+    height: 70%;
+}
+
+.intro-block .intro-icon {
+    position: absolute;
+    background-color: #0068ff;
+    top: -5%;
+    left: -10%;
+    width: 30%;
+    height: 20%;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.intro-block .intro-icon>img {
+    /*background-color: #FFA800;*/
+    filter: hue-rotate(90deg);
+    color: black;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.about .container:nth-child(2) .intro-block h6 {
+    color: #0068ff;
+    text-align: left;
+    font-size: 2.3rem;
+}
+
+.about .container:nth-child(2) .intro-block p {
+    position: absolute;
+    top: 38%;
+}
+.intro-block:hover .intro-icon, .intro-block.active .intro-icon {
+    background-color: #383636;
+    color: white;
+}
+
+.intro-block:hover p {
+    color: white;
+}
+.intro-block:hover, .intro-block.active {
+    background: linear-gradient(168deg, rgb(56, 54, 54) 0%, rgb(0, 104, 255) 75%);
+
 }

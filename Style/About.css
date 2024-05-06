@@ -6,27 +6,28 @@
     padding: 100px 0 50px 0;
 }
 
-.about {
+.about .container:nth-child(1){
     background: #151515;
-    width: 100%;
-    height: 95vh;
 }
 
-.sectionName {
+.about .container h5 {
     position: absolute;
-    color: #FFFFFF;
     top: 10%;
-    left: 7%;
     letter-spacing: 5px;
 }
 
-.description {
+.about .container h2 {
     position: absolute;
     color: #40A2E3;
     top: 18%;
     left: 7%;
     letter-spacing: 8px;
     justify-content: space-between;
+}
+
+.about .container:nth-child(1) h5 {
+    color: #FFFFFF;
+    left: 7%;
 }
 
 section>div>div>p {
@@ -37,7 +38,7 @@ section>div>div>p {
     color: #FFFFFF;
 }
 
-.experience{
+.about .container:nth-child(1) h1{
     font-family: "Inria Serif", serif;
     left: 49%;
     font-size: 12rem;
@@ -45,7 +46,8 @@ section>div>div>p {
     position: absolute;
     top: 25%;
 }
-.years{
+
+.about .container:nth-child(1) .row h4{
     font-family: "Inria Serif", serif;
     left: 50%;
     font-size: 1.2rem;
@@ -55,7 +57,7 @@ section>div>div>p {
     letter-spacing: 2px;
 }
 
-.aboutSImg {
+.about .aboutSImg {
     position: absolute;
     border-radius: 12px 12px 12px 12px;
     width: 230px;
@@ -64,7 +66,7 @@ section>div>div>p {
     bottom: 5%;
 }
 
-.aboutLImg {
+.about .aboutLImg {
     width: 450px;
     height: 600px;
     border-radius: 12px 12px 12px 12px;

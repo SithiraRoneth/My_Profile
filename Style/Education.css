@@ -126,3 +126,16 @@
     bottom: 5%;
     letter-spacing: 2px;
 }
+.edu:before{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+}
+/*
+.edu:hover{
+    border: 2px solid #40A2E3;
+    width: 20%;
+    height: 50%;
+    cursor: pointer;
+    position: absolute;
+}*/
