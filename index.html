@@ -367,7 +367,7 @@
     <meta name="keywords" content="sithira roneth software engineer fullstack developer programming frontend developer ui/ux designer">
     <meta name="author" content="Sithira Roneth">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Sithira Roneth</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
@@ -378,16 +378,27 @@
     <link rel="stylesheet" href="Style/Process.css">
     <link rel="stylesheet" href="Style/Skill.css">
     <link rel="stylesheet" href="Style/Project.css">
-    <link rel="stylesheet" href="Style/Assingment.css">
+    <link rel="stylesheet" href="Style/Assignment.css">
     <link rel="stylesheet" href="Style/Education.css">
     <link rel="stylesheet" href="Style/Gallery.css">
     <link rel="stylesheet" href="Style/ContactMe.css">
     <link rel="stylesheet" href="Style/footer.css">
     <link rel="stylesheet" href="Style/Skill.css">
 
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
 </head>
 <body>
 
+<!--Loader-->
+<section id="preloader">
+    <div id="loader"></div>
+</section>
 <!--Navigation & Home-->
 <header id="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
@@ -435,12 +446,12 @@
             <h2>Tech aficionado, coding <br>
                 dreams into reality</h2>
             <div class="block"></div>
-            <h1 class="experience">0 1 +</h1>
+            <h1 class="experience" data-aos="fade-down">0 1 +</h1>
             <h4>Years of Experience</h4>
-            <p>I embarked on my journey as a software engineer in 2023 and dedicated the majority of my working hours over the past few years to the conception, programming, and management of websites.<br><br>
+            <p data-aos="fade-up">I embarked on my journey as a software engineer in 2023 and dedicated the majority of my working hours over the past few years to the conception, programming, and management of websites.<br><br>
                 I have cultivated the essential skills and knowledge needed to ensure the triumph of your projects. I derive immense satisfaction from every facet of the design process, relishing in the collaborative discussions that contribute to its success.</p>
-            <img class="aboutLImg" src="assets/img/about2.jpg">
-            <img class="aboutSImg" src="assets/img/about-1.jpg">
+            <img data-aos="flip-right" class="aboutLImg" src="assets/img/about2.jpg">
+            <img data-aos="flip-right" class="aboutSImg" src="assets/img/about-1.jpg">
         </div>
     </div>
 
@@ -730,5 +741,13 @@
 </footer>
 <script src="assets/jquery-3.7.1.min.js"></script>
 <script src="JS/Assingment.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    $(window).on('load',function (){
+       $("#preloader").fadeOut(2000);
+    });
+    AOS.init();
+</script>
 </body>
 </html>
