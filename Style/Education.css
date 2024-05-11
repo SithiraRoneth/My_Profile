@@ -23,7 +23,6 @@
 
 /* ASK */
 .about>div.container:nth-child(4)>div:nth-child(2){
-    border: 2px solid #40A2E3;
     width: 20%;
     height: 55%;
     position: absolute;
@@ -130,6 +129,10 @@
     position: absolute;
     width: 20%;
     height: 50%;
+}
+.about>div.container:nth-child(4)>div:hover {
+    border: 2px solid #40A2E3;
+    background: black;
 }
 /*
 .edu:hover{

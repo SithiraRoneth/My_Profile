@@ -75,3 +75,48 @@ img{
     width: 32px;
 }
 
+/*.gallery {
+    display: flex;
+    padding: 2px;
+    transition: .3s;
+    background: black;
+    left: 7%;
+}
+
+.gallery:hover .gallery__image {
+    filter: grayscale(1);
+}
+
+.gallery__column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.gallery__link {
+    margin: 1px;
+    overflow: hidden;
+}
+
+.gallery__link:hover .gallery__image {
+    filter: grayscale(0);
+}
+
+.gallery__link:hover .gallery__caption {
+    opacity: 1;
+}
+
+.gallery__thumb {
+    position: relative;
+}
+
+.gallery__image {
+    display: block;
+    width: 80%;
+    transition: .3s;
+}
+
+.gallery__image:hover {
+    transform: scale(1.1);
+}*/
+
