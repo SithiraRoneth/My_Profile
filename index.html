@@ -387,10 +387,7 @@
 
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -442,8 +439,8 @@
 <section class="about" id="About">
     <div class="container">
         <div class="row">
-            <h5>About me</h5>
-            <h2>Tech aficionado, coding <br>
+            <h5  data-aos="fade-down-left">About me</h5>
+            <h2  data-aos="fade-down-right">Tech aficionado, coding <br>
                 dreams into reality</h2>
             <div class="block"></div>
             <h1 class="experience" data-aos="fade-down">0 1 +</h1>
@@ -674,10 +671,12 @@
 <section class="gallery" id="Gallery">
     <div class="container">
         <div>
-            <h5 class="section-gallery">Gallery</h5>
-            <h1 class="gallery-desc">Find me in the captivating gallery, where <span>creativity shines</span></h1>
+            <h5 class="section-gallery" data-aos="zoom-in-down">Gallery</h5>
+            <h1 class="gallery-desc" data-aos="zoom-in-left">Find me in the captivating gallery, where <span>creativity shines</span></h1>
         </div>
-        <div class="gallery-wrap">
+        <div class="gallery-wrap" data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
             <div class="item item-1"></div>
             <div class="item item-2"></div>
             <div class="item item-3"></div>
@@ -720,13 +719,13 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col six">
-                <img src="assets/img/logo.png" alt="logo"><br><br><br>
+            <div class="col six" data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/img/logo.png" alt="logo" ><br><br><br>
                 <p>92, Udyana Mawatha , Thalahena ,Malabe</p>
                 <p>Telephone: +94 70 406 8026</p>
                 <p>E-mail: <a href="mailto:sithiraroneth@gmail.com">sithiraroneth@gmail.com</a></p>
             </div>
-            <div class="col six">
+            <div class="col six"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <ul>
                     <li><a class="smoothscroll" href="#Home">Home</a></li>
                     <li><a class="smoothscroll" href="#About">About</a></li>

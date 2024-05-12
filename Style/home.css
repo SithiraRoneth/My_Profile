@@ -295,19 +295,23 @@ p {
 ********************************************************************* */
 a {
     color: #1EAEDB;
+    /*transition: text-shadow 0.3s ease;*/
 }
 a:hover {
     color: #0FA0CE;
+   /* text-shadow: 0 0 10px rgb(0, 114, 210);*/
 }
 /* Header Section
 ********************************************************************* */
 .logo{
     width: 100px;
     margin-left: 10px;
+
 }
 .logo:hover{
     animation-name: myLogo;
     animation-duration: 3s;
+
 }
 @keyframes myLogo {
     from{
