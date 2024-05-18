@@ -12,69 +12,216 @@
 
 .about .container h5 {
     position: absolute;
-    top: 10%;
-    letter-spacing: 5px;
 }
 
 .about .container h2 {
     position: absolute;
     color: #40A2E3;
-    top: 18%;
-    left: 7%;
-    letter-spacing: 8px;
     justify-content: space-between;
 }
 
 .about .container:nth-child(1) h5 {
     color: #FFFFFF;
-    left: 7%;
 }
 
 section>div>div>p {
     position: absolute;
-    top: 38%;
-    left: 7%;
-    right: 65%;
     color: #FFFFFF;
 }
 
 .about .container:nth-child(1) h1{
     font-family: "Inria Serif", serif;
-    left: 49%;
-    font-size: 12rem;
     color: #40A2E3;
     position: absolute;
-    top: 25%;
 }
 
 .about .container:nth-child(1) .row h4{
     font-family: "Inria Serif", serif;
-    left: 50%;
-    font-size: 1.2rem;
     color: #FFFFFF;
     position: absolute;
-    top: 43%;
-    letter-spacing: 2px;
 }
 
 .about .aboutSImg {
     position: absolute;
-    border-radius: 12px 12px 12px 12px;
-    width: 230px;
-    height: 330px;
-    right: 35%;
-    bottom: 5%;
 }
 
 .about .aboutLImg {
-    width: 450px;
-    height: 600px;
-    border-radius: 12px 12px 12px 12px;
     position: absolute;
-    right: 3%;
-    bottom: 5%;
 }
 
+@media (max-width: 1500px){
+    .about .container h5{
+        top: 10%;
+        letter-spacing: 5px;
+    }
 
+    .about .container h2 {
+        top: 15%;
+        letter-spacing: 5px;
+    }
 
+    .about .container:nth-child(1) h2{
+        left: 10%;
+        right: 35%;
+    }
 
+    .about .container:nth-child(1) h5{
+        left: 10%;
+    }
+
+    section>div>div>p{
+        top: 40%;
+        left: 10%;
+        right: 55%;
+    }
+
+    .about .aboutSImg {
+        border-radius: 12px 12px 12px 12px;
+        width: 15%;
+        height: 42%;
+        right: 35%;
+        bottom: 5%;
+    }
+
+    .about .aboutLImg {
+        width: 30%;
+        height: 85%;
+        border-radius: 12px 12px 12px 12px;
+        right: 3%;
+        bottom: 5%;
+    }
+
+    .about .container:nth-child(1) h1{
+        left: 50%;
+        font-size: 10rem;
+        top: 33%;
+    }
+
+    .about .container:nth-child(1) .row h4{
+        left: 50%;
+        font-size: 1.2rem;
+        top: 48%;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 768px){
+    .about .container:nth-child(1) {
+        height: 65vh;
+    }
+
+    .about .container h5{
+        top: 5%;
+        letter-spacing: 3px;
+    }
+
+    .about .container h2 {
+        top: 8%;
+        letter-spacing: 3px;
+    }
+
+    .about .container:nth-child(1) h2{
+        left: 8%;
+        right: 25%;
+    }
+
+    .about .container:nth-child(1) h5{
+        left: 8%;
+    }
+
+    section>div>div>p{
+        top: 27%;
+        left: 8%;
+        right: 45%;
+    }
+
+    .about .aboutSImg {
+        border-radius: 5px 5px 5px 5px;
+        width: 12%;
+        height: 40%;
+        left: 59%;
+        bottom: 8%;
+    }
+
+    .about .aboutLImg {
+        width: 20%;
+        height: 70%;
+        border-radius: 5px 5px 5px 5px;
+        right: 8%;
+        bottom: 8%;
+    }
+
+    .about .container:nth-child(1) h1{
+        left: 58%;
+        font-size: 5rem;
+        top: 35%;
+    }
+
+    .about .container:nth-child(1) .row h4{
+        left: 58%;
+        font-size: 0.5rem;
+        top: 47%;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media (max-width: 425px){
+    .about .container:nth-child(1){
+        height: 95vh;
+    }
+
+    .about .container h5{
+        top: 5%;
+        letter-spacing: 5px;
+    }
+
+    .about .container h2 {
+        top: 8%;
+        letter-spacing: 3px;
+    }
+
+    .about .container:nth-child(1) h2{
+        left: 5%;
+        right: 15%;
+    }
+
+    .about .container:nth-child(1) h5{
+        left: 5%;
+    }
+
+    section>div>div>p{
+        top: 20%;
+        left: 5%;
+        right: 10%;
+    }
+
+    .about .aboutSImg {
+        border-radius: 2px 2px 2px 2px;
+        width: 15%;
+        height: 25%;
+        left: 49%;
+        bottom: 5%;
+    }
+
+    .about .aboutLImg {
+        width: 30%;
+        height: 32%;
+        border-radius: 2px 2px 2px 2px;
+        right: 5%;
+        bottom: 5%;
+    }
+
+    .about .container:nth-child(1) h1{
+        left: 15%;
+        font-size: 5rem;
+        top: 85%;
+    }
+
+    .about .container:nth-child(1) .row h4{
+        left: 15%;
+        font-size: 0.5rem;
+        top: 93%;
+        letter-spacing: 2px;
+    }
+}
