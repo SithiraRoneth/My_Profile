@@ -394,9 +394,9 @@
 <body>
 
 <!--Loader-->
-<!--<section id="preloader">
+<section id="preloader">
     <div id="loader"></div>
-</section>-->
+</section>
 <!--Navigation & Home-->
 <header id="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
@@ -512,27 +512,52 @@
 
     <!-- Business Process-->
     <div class="container">
-        <h5>How It Works</h5>
+        <h5>How It Works ?</h5>
         <h2>Our Business Process</h2>
-        <div>
-            <img src="assets/img/schedule.png" alt="schedule" id="sched">
+        <div class="row">
+            <div>
+                <img src="assets/img/schedule.png" alt="schedule" id="sched">
+                <br>
+                <br>
+                <h7>schedule and time</h7>
+            </div>
+            <hr>
+            <div>
+                <img src="assets/img/ui.png" alt="ui" id="ui">
+                <br>
+                <br>
+                <h7>ui/ux design</h7>
+            </div>
+            <hr>
+            <div>
+                <img src="assets/img/front.png" alt="front" id="front">
+                <br>
+                <br>
+                <h7>front end development</h7>
+            </div>
         </div>
-        <div>
-            <img src="assets/img/ui.png" alt="ui" id="ui">
+        <div class="row">
+            <div>
+                <img src="assets/img/deploy.png" alt="deploy" id="deploy">
+                <br>
+                <br>
+                <h7>back-end development</h7>
+            </div>
+            <hr>
+            <div>
+                <img src="assets/img/quality.png" alt="quality" id="quality">
+                <br>
+                <br>
+                <h7>quality assurance</h7>
+            </div>
+            <hr>
+            <div>
+                <img src="assets/img/BackEnd.png" alt="backENd" id="back">
+                <br>
+                <br>
+                <h7>deployment</h7>
+            </div>
         </div>
-        <div>
-            <img src="assets/img/front.png" alt="front" id="front">
-        </div>
-        <div>
-            <img src="assets/img/deploy.png" alt="deploy" id="deploy">
-        </div>
-        <div>
-            <img src="assets/img/quality.png" alt="quality" id="quality">
-        </div>
-        <div>
-            <img src="assets/img/BackEnd.png" alt="backENd" id="back">
-        </div>
-
     </div>
 
     <!--Education Level-->
@@ -690,7 +715,7 @@
 
 <!--Gallery-->
 <section class="gallery" id="Gallery">
-    <!--<div class="container">
+    <div class="container">
         <div>
             <h5 class="section-gallery" data-aos="zoom-in-down">Gallery</h5>
             <h1 class="gallery-desc" data-aos="zoom-in-left">Find me in the captivating gallery, where <span>creativity shines</span></h1>
@@ -707,16 +732,16 @@
             <div class="item item-7"></div>
             <div class="item item-8"></div>
         </div>
-    </div>-->
-    <div class="container">
-        <div class="image-wrapper">
-            <div class="box box-1" style="--img: url(../assets/img/gallery/1.jpg);"></div>
-            <div class="box box-2" style="--img: url(../assets/img/gallery/2.jpg);"></div>
-            <div class="box box-3" style="--img: url(../assets/img/gallery/3.jpg);"></div>
-            <div class="box box-4" style="--img: url(../assets/img/gallery/4.jpg);"></div>
-            <div class="box box-5" style="--img: url(../assets/img/gallery/5.jpg);"></div>
-        </div>
     </div>
+    <!--<div class="container">
+        <div class="image-wrapper">
+            <div class="box box-1" style="&#45;&#45;img: url(../assets/img/gallery/1.jpg);"></div>
+            <div class="box box-2" style="&#45;&#45;img: url(../assets/img/gallery/2.jpg);"></div>
+            <div class="box box-3" style="&#45;&#45;img: url(../assets/img/gallery/3.jpg);"></div>
+            <div class="box box-4" style="&#45;&#45;img: url(../assets/img/gallery/4.jpg);"></div>
+            <div class="box box-5" style="&#45;&#45;img: url(../assets/img/gallery/5.jpg);"></div>
+        </div>
+    </div>-->
 </section>
 
 <!--Contact Me-->
@@ -776,7 +801,7 @@
 
 <script>
     $(window).on('load',function (){
-       $("#preloader").fadeOut(1000);
+       $("#preloader").fadeOut(800);
     });
     function showSidebar(){
         const sidebar = document.querySelector('.sidebar')

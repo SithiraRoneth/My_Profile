@@ -1,171 +1,144 @@
-/*
-    Business Process
-*/
-
 .about>div.container:nth-child(3){
     background: #151515;
+    padding: 10% 5% 5% 5%;
 }
+
 .about .container:nth-child(3) h5 {
     color: #40A2E3;
     left: 10%;
     text-align: right;
 }
+
 .about .container:nth-child(3) h2 {
     color: #FFFFFF;
     text-align: right;
     left: 10%;
 }
-/*.circle{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:inline-block;
-    margin: 20px;
-}*/
-.about>div.container:nth-child(3)>div{
-    width: 9%;
-    height: 19%;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:flex;
-    margin: 20px;
+
+.about .container:nth-child(3) .row{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
-.about>div.container:nth-child(3)>div>img{
+
+.about .container:nth-child(3) .row div {
+    background: #0d84ce;
+    text-align: center;
+}
+
+.about .container:nth-child(3) .row div img{
     width: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-.about>div.container:nth-child(3)>div:nth-child(1){
-    /*width: 10%;
-    height: 20%;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:inline-block;
-    margin: 20px;*/
-    top: 28%;
-    left: 13%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 
-.about>div.container:nth-child(3)>div:nth-child(2){
-    /*width: 10%;
-    height: 20%;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:inline-block;
-    margin: 20px;*/
-    top: 28%;
-    left: 43%;
-}
-.about>div.container:nth-child(3)>div:nth-child(3){
-   /* width: 10%;
-    height: 20%;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:inline-block;
-    margin: 20px;*/
-    top: 28%;
-    left:73%;
-}
-.about>div.container:nth-child(3)>div:nth-child(4){
-   /* width: 10%;
-    height: 20%;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:inline-block;
-    margin: 20px;*/
-    top: 63%;
-    left: 13%;
-}
-.about>div.container:nth-child(3)>div:nth-child(5){
-    /*width: 10%;
-    height: 20%;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:inline-block;
-    margin: 20px;*/
-    top: 63%;
-    left: 43%;
-}
-.about>div.container:nth-child(3)>div:nth-child(6){
-    /*width: 10%;
-    height: 20%;
-    border-radius: 50%;
-    background: #40A2E3;
-    position: absolute;
-    display:inline-block;
-    margin: 20px;*/
-    top: 63%;
-    left: 73%;
-}
-.about>div.container:nth-child(3)>h4{
-    position: absolute;
-    color: #40A2E3;
-    font-size: 1.8rem;
-}
-#sched{
-   /* width: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;*/
-}
-#ui{
-   /* width: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;*/
-}
-#front{
-  /*  width: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;*/
-}
-#deploy{
-  /*  width: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;*/
-}
-#quality{
-   /* width: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;*/
+.about .container:nth-child(3) .row h7 {
+    color: white;
+    margin-bottom: 0;
 }
 
-#back{
-   /* width: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;*/
+@media (max-width: 1500px){
+    .about .container:nth-child(3) .row{
+        width: 85%;
+        height: 30%;
+        padding: 5% 8% 2% 8%;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .about .container:nth-child(3) .row div {
+        width: 15%;
+        height: 100%;
+        border-radius: 50% 50% 50% 50%;
+    }
+
+    .about .container:nth-child(3) .row hr {
+        width: 10%;
+    }
+
 }
+
+/*
+@media (max-width: 768px){
+    .about>div.container:nth-child(3){
+        height: 150vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .about .container:nth-child(3) .row{
+        width: 40%;
+        height: 80%;
+        padding: 2% 2% 5% 5%;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .about .container:nth-child(3) .row div {
+        width: 70%;
+        height: 14%;
+        border-radius: 50%;
+    }
+    .about .container:nth-child(3) .row div img{
+        width: 65%;
+        height: 65%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+    }
+
+    .about .container:nth-child(3) .row hr {
+        width: 10%;
+        display: none;
+    }
+}*/
+@media (max-width: 768px) {
+    .about > div.container:nth-child(3) {
+        height: 150vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about .container:nth-child(3) .row {
+        width: 40%;
+        height: 80%;
+        /*padding: 1% 2%;*/
+        padding: 0;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .about .container:nth-child(3) .row div {
+        width: 70%;
+        padding-bottom: 70%;
+        height: 0;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .about .container:nth-child(3) .row div img {
+        width: 65%;
+        height: 65%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .about .container:nth-child(3) .row h7{
+        position: absolute;
+        top: 110%;
+        left: 14%;
+    }
+
+    .about .container:nth-child(3) .row hr {
+        width: 10%;
+        display: none;
+    }
+}
+
