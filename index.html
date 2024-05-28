@@ -402,7 +402,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <h1 class="logo"><img src="assets/img/logo.png" alt="logo" class="logo"></h1>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="sidebar">
+            <!--<ul class="sidebar">
                 <li class="nav-item" onclick="hideSidebar()">
                     <a class="nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
                 </li>
@@ -418,7 +418,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#Contact">Contact Me</a>
                 </li>
-            </ul>
+            </ul>-->
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item hideOnMobile">
@@ -433,9 +433,9 @@
                 <li class="nav-item hideOnMobile">
                     <a class="nav-link"   href="#Contact">Contact Me</a>
                 </li>
-                <li class="menu-button" onclick="showSidebar()">
+               <!-- <li class="menu-button" onclick="showSidebar()">
                     <a class="nav-link"   href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </nav>
@@ -562,21 +562,27 @@
 
     <!--Education Level-->
     <div class="container">
-        <div>
-            <h5 class="sectionEdu">What is Education Level ?</h5>
-            <h1 class="Edu">I have achieved following <span>levels of education </span></h1>
-        </div>
-        <div class="edu">
-            <img src="assets/img/ask.png" alt="Ask" id="Ask">
-            <h4>Ananda Sastralaya <span>Kotte</span></h4>
-        </div>
-        <div class="edu">
-            <img src="assets/img/ijse.png" alt="ijse" id="ijse">
-            <h4>Institute of Software <span>Engineering</span></h4>
-        </div>
-        <div class="edu">
-            <img src="assets/img/aq.png" alt="aquinas" id="aq">
-            <h4>Aquinas Collage</h4>
+        <h5 class="sectionEdu">What is Education Level ?</h5>
+        <h2 class="Edu">I have achieved following <span>levels of education </span></h2>
+        <div class="row">
+            <div>
+                <img src="assets/img/ask.png" alt="Ask" id="Ask">
+                <br>
+                <br>
+                <a href="#">Ananda Sastralaya Kotte</a>
+            </div>
+            <div>
+                <img src="assets/img/ijse.png" alt="ijse" id="ijse">
+                <br>
+                <br>
+                <a href="#">Institute of Software Engineering </a>
+            </div>
+            <div>
+                <img src="assets/img/aq.png" alt="aquinas" id="aq">
+                <br>
+                <br>
+                <a href="#">Aquinas Collage</a>
+            </div>
         </div>
     </div>
 
@@ -624,7 +630,7 @@
 
             <!--MySQL-->
             <figure class="chart" data-percent="75">
-                <figcaption>MySQL</figcaption>
+                <figcaption>SQL</figcaption>
                 <img class="mysql" src="assets/img/mysql.png">
                 <svg width="200" height="200">
                     <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
@@ -733,15 +739,6 @@
             <div class="item item-8"></div>
         </div>
     </div>
-    <!--<div class="container">
-        <div class="image-wrapper">
-            <div class="box box-1" style="&#45;&#45;img: url(../assets/img/gallery/1.jpg);"></div>
-            <div class="box box-2" style="&#45;&#45;img: url(../assets/img/gallery/2.jpg);"></div>
-            <div class="box box-3" style="&#45;&#45;img: url(../assets/img/gallery/3.jpg);"></div>
-            <div class="box box-4" style="&#45;&#45;img: url(../assets/img/gallery/4.jpg);"></div>
-            <div class="box box-5" style="&#45;&#45;img: url(../assets/img/gallery/5.jpg);"></div>
-        </div>
-    </div>-->
 </section>
 
 <!--Contact Me-->
@@ -803,7 +800,7 @@
     $(window).on('load',function (){
        $("#preloader").fadeOut(800);
     });
-    function showSidebar(){
+   /* function showSidebar(){
         const sidebar = document.querySelector('.sidebar')
         sidebar.style.display = 'flex';
     }
@@ -813,7 +810,7 @@
 
         const currentSectionId = document.querySelector('.nav-link[aria-current="page"]').getAttribute('href');
         window.location.hash = currentSectionId;
-    }
+    }*/
 
     AOS.init();
 </script>

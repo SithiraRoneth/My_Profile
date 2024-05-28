@@ -105,6 +105,62 @@ section>div>div>p {
     }
 }
 
+@media (max-width: 1024px) {
+    .about .container h5{
+        top: 10%;
+        letter-spacing: 5px;
+    }
+
+    .about .container h2 {
+        top: 15%;
+        letter-spacing: 5px;
+    }
+
+    .about .container:nth-child(1) h2{
+        left: 10%;
+        right: 35%;
+    }
+
+    .about .container:nth-child(1) h5{
+        left: 10%;
+    }
+
+    section>div>div>p{
+        top: 40%;
+        left: 10%;
+        right: 55%;
+    }
+
+    .about .aboutSImg {
+        border-radius: 12px 12px 12px 12px;
+        width: 20%;
+        height: 35%;
+        right: 40%;
+        bottom: 5%;
+        opacity: 15%;
+    }
+
+    .about .aboutLImg {
+        width: 35%;
+        height: 63%;
+        border-radius: 12px 12px 12px 12px;
+        right: 3%;
+        bottom: 5%;
+    }
+
+    .about .container:nth-child(1) h1{
+        left: 48%;
+        font-size: 7rem;
+        top: 35%;
+    }
+
+    .about .container:nth-child(1) .row h4{
+        left: 48%;
+        font-size: 0.9rem;
+        top: 45%;
+        letter-spacing: 2px;
+    }
+}
 /* Tablet */
 @media (max-width: 768px){
     .about .container:nth-child(1) {
@@ -137,20 +193,21 @@ section>div>div>p {
     }
 
     .about .aboutSImg {
-        /*border-radius: 5px 5px 5px 5px;
-        width: 12%;
+       /* border-radius: 5px 5px 5px 5px;
+        width: 17%;
         height: 40%;
-        left: 59%;
-        bottom: 8%;*/
+        left: 45%;
+        bottom: 8%;
+        opacity: 2%;*/
         display: none;
     }
 
     .about .aboutLImg {
-        width: 30%;
-        height: 50%;
+        width: 25%;
+        height: 60%;
         border-radius: 5px 5px 5px 5px;
-        right: 8%;
-        bottom: 13%;
+        right: 10%;
+        bottom: 8%;
     }
 
     .about .container:nth-child(1) h1{
@@ -162,14 +219,14 @@ section>div>div>p {
     .about .container:nth-child(1) .row h4{
         left: 58%;
         font-size: 0.5rem;
-        top: 25%;
+        top: 28%;
         letter-spacing: 2px;
     }
 
 }
 
 /* Mobile Large */
-@media (max-width: 425px){
+@media (max-width: 420px){
     .about .container:nth-child(1){
         height: 95vh;
     }
@@ -203,13 +260,13 @@ section>div>div>p {
         /*border-radius: 2px 2px 2px 2px;
         width: 15%;
         height: 25%;
-        left: 49%;
+        left: 10%;
         bottom: 5%;*/
         display: none;
     }
 
     .about .aboutLImg {
-        width: 40%;
+        width: 38%;
         height: 32%;
         border-radius: 2px 2px 2px 2px;
         right: 8%;
