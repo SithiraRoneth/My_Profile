@@ -246,7 +246,7 @@
 @media (max-width: 1024px) {
     .about .container:nth-child(5) {
         width: 100%;
-        height: 90vh;
+        height: 95vh;
     }
 
     .about .container:nth-child(5) .row {

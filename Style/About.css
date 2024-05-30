@@ -73,6 +73,7 @@ section>div>div>p {
         top: 40%;
         left: 10%;
         right: 55%;
+        font-size: 1.2rem;
     }
 
     .about .aboutSImg {
@@ -126,38 +127,37 @@ section>div>div>p {
     }
 
     section>div>div>p{
-        top: 40%;
+        top: 44%;
         left: 10%;
         right: 55%;
     }
 
     .about .aboutSImg {
         border-radius: 12px 12px 12px 12px;
-        width: 20%;
+        width: 17%;
         height: 35%;
-        right: 40%;
+        right: 37%;
         bottom: 5%;
-        opacity: 15%;
     }
 
     .about .aboutLImg {
-        width: 35%;
+        width: 30%;
         height: 63%;
         border-radius: 12px 12px 12px 12px;
-        right: 3%;
+        right: 5%;
         bottom: 5%;
     }
 
     .about .container:nth-child(1) h1{
         left: 48%;
         font-size: 7rem;
-        top: 35%;
+        top: 40%;
     }
 
     .about .container:nth-child(1) .row h4{
         left: 48%;
         font-size: 0.9rem;
-        top: 45%;
+        top: 53%;
         letter-spacing: 2px;
     }
 }
