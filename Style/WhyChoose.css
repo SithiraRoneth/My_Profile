@@ -62,7 +62,7 @@
     background: linear-gradient(168deg, rgb(56, 54, 54) 0%, rgb(0, 104, 255) 75%);
 }
 
-@media (max-width: 1500px){
+@media (min-width: 1500px){
     .about .container:nth-child(2) h5 {
         right: 10%;
         text-align: right;

@@ -39,7 +39,7 @@
 }
 
 /* Laptop Large */
-@media (max-width: 1500px){
+@media (min-width: 1500px){
     .about .container:nth-child(3) .row{
         width: 85%;
         height: 30%;

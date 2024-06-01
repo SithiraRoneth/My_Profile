@@ -67,7 +67,7 @@ Header Section
 }
 
 /* Larger than tablet */
-@media (max-width: 1500px){
+@media (min-width: 1500px){
     h1 {
         font-size: 4.0rem;
     }
