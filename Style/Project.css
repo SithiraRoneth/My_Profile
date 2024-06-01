@@ -1,20 +1,218 @@
 .about .container:nth-child(6) {
-    width: 100%;
-    height: 150vh;
-/*/text-align: center;/*/
-background: black;
+    background: black;
 }
 
 .about .container:nth-child(6) h5 {
     color: #40A2E3;
-    top: 5%;
-    right: 10%;
     text-align: right;
 }
 
 .about .container:nth-child(6) h2 {
     color: #FFFFFF;
-    top: 10%;
     text-align: right;
-    right: 10%;
+}
+
+/*/.about .container:nth-child(6) .row {/*/
+     /*    !background: #009688;!*/
+     /*    display: flex;*/
+     /*    flex-direction: column;*/
+ /*/}/*/
+
+.about .container:nth-child(6) img {
+    position: absolute;
+}
+
+.about .container:nth-child(6) hr {
+    position: absolute;
+}
+
+.about .container:nth-child(6) h7 {
+    color: white;
+    position: absolute;
+}
+
+.about .container:nth-child(6) #vtech7 span{
+    color: #0d84ce;
+}
+
+.about .container:nth-child(6) #chath7{
+    color: #0d84ce;
+}
+
+.about .container:nth-child(6) #chath7 span{
+    color: white;
+}
+
+.about .container:nth-child(6) p{
+    color: white;
+    position: absolute;
+}
+
+@media (min-width: 1500px) {
+    .about .container:nth-child(6) {
+        width: 100%;
+        height: 150vh;
+        background: black;
+    }
+
+    .about .container:nth-child(6) h5 {
+        color: #40A2E3;
+        top: 5%;
+        right: 10%;
+        text-align: right;
+    }
+
+    .about .container:nth-child(6) h2 {
+        color: #FFFFFF;
+        top: 10%;
+        text-align: right;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) img {
+        width: 30%;
+        height: 20%;
+    }
+
+    .about .container:nth-child(6) .V-TEC {
+        top: 30%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(6) .CHAT-APP {
+        top: 60%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) hr {
+        width: 30%;
+    }
+
+    #vtec {
+        top: 50%;
+        left: 10%;
+    }
+
+    #chat{
+        top: 80%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) h7 {
+        letter-spacing: 2px
+    }
+
+    .about .container:nth-child(6) #vtech7 {
+        top:40%;
+        left: 42%;
+    }
+
+    .about .container:nth-child(6) #chath7{
+        top: 70%;
+        right: 45%;
+    }
+
+    .about .container:nth-child(6) #vtecp{
+        top: 43%;
+        left: 42%;
+        right: 30%;
+    }
+
+    .about .container:nth-child(6) #chatp{
+        top: 72%;
+        right: 42%;
+        left: 30%;
+    }
+    .about .container:nth-child(6) a {
+        color: #0d84ce;
+        position: absolute;
+        font-size: 18px;
+        bottom: 5%;
+        left: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about .container:nth-child(6) {
+        width: 100%;
+        height: 80vh;
+        background: black;
+    }
+
+    .about .container:nth-child(6) h5 {
+        color: #40A2E3;
+        top: 5%;
+        right: 10%;
+        text-align: right;
+    }
+
+    .about .container:nth-child(6) h2 {
+        color: #FFFFFF;
+        top: 8%;
+        text-align: right;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) img {
+        width: 30%;
+        height: 20%;
+    }
+
+    .about .container:nth-child(6) .V-TEC {
+        top: 30%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(6) .CHAT-APP {
+        top: 60%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) hr {
+        width: 30%;
+    }
+
+    #vtec {
+        top: 50%;
+        left: 10%;
+    }
+
+    #chat{
+        top: 80%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) h7 {
+        letter-spacing: 2px
+    }
+
+    .about .container:nth-child(6) #vtech7 {
+        top: 35%;
+        left: 45%;
+    }
+
+    .about .container:nth-child(6) #chath7{
+        top: 65%;
+        right: 45%;
+    }
+
+    .about .container:nth-child(6) #vtecp{
+        top: 40%;
+        left: 45%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) #chatp{
+        top: 70%;
+        right: 45%;
+        left: 10%;
+        text-align: right;
+    }
+    .about .container:nth-child(6) a {
+        color: #0d84ce;
+        position: absolute;
+        font-size: 14px;
+        bottom: 5%;
+        left: 45%;
+    }
 }
