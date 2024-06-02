@@ -148,11 +148,13 @@ h1,h2,h3,h4{
     .sectionContact{
         top: 40%;
         left: 7%;
+        font-size: 8.3rem;
     }
 
     .con1{
         top: 60%;
         left: 10%;
+        font-size: 4.2rem;
     }
 
     .con2{
