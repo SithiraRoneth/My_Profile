@@ -81,7 +81,7 @@
     .container:nth-child(2) .row {
         flex-direction: row;
         top: 40%;
-        left: 8%;
+        left: 10%;
         right: 10%;
         width: 60%;
         height: 50%;
