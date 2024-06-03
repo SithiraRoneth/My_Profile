@@ -133,6 +133,90 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .about .container:nth-child(6) {
+        width: 100%;
+        height: 150vh;
+        background: black;
+    }
+
+    .about .container:nth-child(6) h5 {
+        color: #40A2E3;
+        top: 5%;
+        right: 10%;
+        text-align: right;
+    }
+
+    .about .container:nth-child(6) h2 {
+        color: #FFFFFF;
+        top: 10%;
+        text-align: right;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) img {
+        width: 40%;
+        height: 20%;
+    }
+
+    .about .container:nth-child(6) .V-TEC {
+        top: 30%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(6) .CHAT-APP {
+        top: 60%;
+        right: 10%;
+    }
+
+
+    .about .container:nth-child(6) hr {
+        width: 30%;
+    }
+
+    #vtec {
+        top: 50%;
+        left: 10%;
+    }
+
+    #chat{
+        top: 80%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) h7 {
+        letter-spacing: 2px
+    }
+
+    .about .container:nth-child(6) #vtech7 {
+        top:30%;
+        left: 55%;
+    }
+
+    .about .container:nth-child(6) #chath7{
+        top: 60%;
+        right: 57%;
+    }
+
+    .about .container:nth-child(6) #vtecp{
+        top: 38%;
+        left: 55%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) #chatp{
+        top: 64%;
+        right: 55%;
+        left: 10%;
+    }
+    .about .container:nth-child(6) a {
+        color: #0d84ce;
+        position: absolute;
+        font-size: 18px;
+        bottom: 5%;
+        left: 45%;
+    }
+}
 @media (max-width: 768px) {
     .about .container:nth-child(6) {
         width: 100%;
@@ -208,6 +292,178 @@
         right: 45%;
         left: 10%;
         text-align: right;
+    }
+    .about .container:nth-child(6) a {
+        color: #0d84ce;
+        position: absolute;
+        font-size: 14px;
+        bottom: 5%;
+        left: 45%;
+    }
+}
+@media (max-width: 420px) {
+    .about .container:nth-child(6) {
+        width: 100%;
+        height: 100vh;
+        background: black;
+    }
+
+    .about .container:nth-child(6) h5 {
+        color: #40A2E3;
+        top: 5%;
+        right: 10%;
+        text-align: right;
+    }
+
+    .about .container:nth-child(6) h2 {
+        color: #FFFFFF;
+        top: 8%;
+        text-align: right;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) img {
+        width: 30%;
+        height: 10%;
+    }
+
+    .about .container:nth-child(6) .V-TEC {
+        top: 30%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(6) .CHAT-APP {
+        top: 60%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) hr {
+        width: 30%;
+        display: none;
+    }
+
+    #vtec {
+        top: 50%;
+        left: 10%;
+    }
+
+    #chat{
+        top: 80%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) h7 {
+        letter-spacing: 1px
+    }
+
+    .about .container:nth-child(6) #vtech7 {
+        top: 30%;
+        left: 45%;
+    }
+
+    .about .container:nth-child(6) #chath7{
+        top: 58%;
+        right: 45%;
+    }
+
+    .about .container:nth-child(6) #vtecp{
+        top: 35%;
+        left: 45%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) #chatp{
+        top: 63%;
+        right: 45%;
+        left: 10%;
+        text-align: right;
+    }
+    .about .container:nth-child(6) a {
+        color: #0d84ce;
+        position: absolute;
+        font-size: 14px;
+        bottom: 5%;
+        left: 45%;
+    }
+}
+@media (max-width: 320px) {
+    .about .container:nth-child(6) {
+        width: 100%;
+        height: 100vh;
+        background: black;
+    }
+
+    .about .container:nth-child(6) h5 {
+        color: #40A2E3;
+        top: 5%;
+        right: 10%;
+        text-align: right;
+    }
+
+    .about .container:nth-child(6) h2 {
+        color: #FFFFFF;
+        top: 8%;
+        text-align: right;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) img {
+        width: 70%;
+        height: 20%;
+    }
+
+    .about .container:nth-child(6) .V-TEC {
+        top: 30%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(6) .CHAT-APP {
+        top: 60%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) hr {
+        width: 30%;
+        display: none;
+    }
+
+    #vtec {
+        top: 50%;
+        left: 10%;
+    }
+
+    #chat{
+        top: 80%;
+        right: 10%;
+    }
+
+    .about .container:nth-child(6) h7 {
+        letter-spacing: 2px
+    }
+
+    .about .container:nth-child(6) #vtech7 {
+        top: 50%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(6) #chath7{
+        top: 80%;
+        right: 38%;
+    }
+
+    .about .container:nth-child(6) #vtecp{
+        top: 40%;
+        left: 45%;
+        right: 10%;
+        display: none;
+    }
+
+    .about .container:nth-child(6) #chatp{
+        top: 70%;
+        right: 45%;
+        left: 10%;
+        text-align: right;
+        display: none;
     }
     .about .container:nth-child(6) a {
         color: #0d84ce;
