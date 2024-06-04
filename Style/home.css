@@ -631,9 +631,299 @@ nav ul a:hover {
 /*
     Media Query for Home Page
  */
-@media  screen and (min-width: 768px) and (max-width: 1024px) {
-   header.HomeImg{
-       width: 100px;
-       height: 100px;
+@media (min-width: 1500px) {
+    .title .cvButton {
+        position: absolute;
+        background-color: #40A2E3;
+        border-radius: 10px 10px 10px 10px;
+        color: #FFFFFF;
+        left: 7%;
+        top: 85%;
+        width: 200px;
+        height: 50px;
+    }
+
+    .title .smallsep {
+        background: #fff;
+        height: 2px;
+        width: 70px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .title h1 {
+        font-size: 95px;
+        font-weight: 300;
+        position: absolute;;
+        text-transform: uppercase;
+        line-height: 0.85;
+        margin-bottom: 28px;
+        margin-left: 20px;
+        left: 7%;
+        top: 60%;
+        margin: 0;
+        padding: 0;
+        color: #FFFFFF;
+    }
+
+    .title h1 span {
+        color: #0FA0CE;
+    }
+
+    .title .introduction {
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 400;
+        position: absolute;
+        text-transform: uppercase;
+        left: 7%;
+        top: 70%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    .title .intro {
+        color: #FFFFFF;
+        font-size: 24px;
+        /*font-weight: 400;*/
+        position: absolute;
+        text-transform: uppercase;
+        top: 45%;
+        left: 7%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    header .HomeImg {
+        width: 750px;
+        height: 800px;
+        position: absolute;
+        right: 4%;
+        bottom: 0;
+    }
+}
+@media (max-width: 1024px) {
+    .title .cvButton {
+        position: absolute;
+        background-color: #40A2E3;
+        border-radius: 10px 10px 10px 10px;
+        color: #FFFFFF;
+        left: 5%;
+        top: 80%;
+        width: 150px;
+        height: 40px;
+    }
+
+    .title .smallsep {
+        background: #fff;
+        height: 2px;
+        width: 70px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .title h1 {
+        font-size: 60px;
+        font-weight: 300;
+        position: absolute;;
+        text-transform: uppercase;
+        line-height: 0.85;
+        margin-bottom: 28px;
+        margin-left: 20px;
+        left: 5%;
+        top: 60%;
+        margin: 0;
+        padding: 0;
+        color: #FFFFFF;
+    }
+
+    .title h1 span {
+        color: #0FA0CE;
+    }
+
+    .title .introduction {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+        position: absolute;
+        text-transform: uppercase;
+        left: 5%;
+        top: 64%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    .title .intro {
+        color: #FFFFFF;
+        font-size: 16px;
+        /*font-weight: 400;*/
+        position: absolute;
+        text-transform: uppercase;
+        top: 45%;
+        left: 5%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    header .HomeImg {
+        width: 500px;
+        height: 550px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+@media (max-width: 768px) {
+
+    .title .cvButton {
+        position: absolute;
+        background-color: #40A2E3;
+        border-radius: 10px 10px 10px 10px;
+        color: #FFFFFF;
+        left: 5%;
+        top: 80%;
+        width: 150px;
+        height: 40px;
+    }
+
+    .title .smallsep {
+        background: #fff;
+        height: 2px;
+        width: 70px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .title h1 {
+        font-size: 50px;
+        font-weight: 300;
+        position: absolute;;
+        text-transform: uppercase;
+        line-height: 0.85;
+        margin-bottom: 28px;
+        margin-left: 20px;
+        left: 5%;
+        top: 60%;
+        margin: 0;
+        padding: 0;
+        color: #FFFFFF;
+    }
+
+    .title h1 span {
+        color: #0FA0CE;
+    }
+
+    .title .introduction {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        position: absolute;
+        text-transform: uppercase;
+        left: 5%;
+        top: 64%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    .title .intro {
+        color: #FFFFFF;
+        font-size: 14px;
+        /*font-weight: 400;*/
+        position: absolute;
+        text-transform: uppercase;
+        top: 45%;
+        left: 5%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    header .HomeImg {
+        width: 450px;
+        height: 500px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+@media (max-width: 320px) {
+    .title .cvButton {
+        position: absolute;
+        background-color: #40A2E3;
+        border-radius: 10px 10px 10px 10px;
+        color: #FFFFFF;
+        font-size: 9px;
+        left: 10%;
+        top: 75%;
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .title .smallsep {
+        background: #fff;
+        height: 2px;
+        width: 70px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .title h1 {
+        font-size: 30px;
+        font-weight: 300;
+        position: absolute;;
+        text-transform: uppercase;
+        line-height: 0.85;
+        margin-bottom: 28px;
+        margin-left: 20px;
+        left: 10%;
+        top: 60%;
+        margin: 0;
+        padding: 0;
+        color: #FFFFFF;
+    }
+
+    .title h1 span {
+        color: #0FA0CE;
+    }
+
+    .title .introduction {
+        color: #FFFFFF;
+        font-size: 11px;
+        font-weight: 400;
+        position: absolute;
+        text-transform: uppercase;
+        left: 10%;
+        top: 60%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    .title .intro {
+        color: #FFFFFF;
+        font-size: 11px;
+        /*font-weight: 400;*/
+        position: absolute;
+        text-transform: uppercase;
+        top: 46%;
+        left: 10%;
+        letter-spacing: 5px;
+        margin-top: 50px;
+    }
+
+    header .HomeImg {
+        width: 320px;
+        height: 350px;
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+        opacity: 40%;
     }
 }
