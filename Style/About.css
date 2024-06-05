@@ -194,13 +194,13 @@ section>div>div>p {
     }
 
     .about .aboutSImg {
-       /* border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
         width: 17%;
         height: 40%;
         left: 45%;
         bottom: 8%;
-        opacity: 2%;*/
-        display: none;
+        opacity: 10%;
+       /* display: none;*/
     }
 
     .about .aboutLImg {
@@ -271,7 +271,7 @@ section>div>div>p {
         height: 32%;
         border-radius: 2px 2px 2px 2px;
         right: 8%;
-        bottom: 5%;
+        bottom: 3%;
     }
 
     .about .container:nth-child(1) h1{
@@ -389,7 +389,7 @@ section>div>div>p {
     }
 
     .about .aboutLImg {
-        width: 70%;
+        width: 75%;
         height: 52%;
         border-radius: 2px 2px 2px 2px;
         right: 8%;

@@ -217,8 +217,8 @@
     .intro-block .intro-icon {
         top: 24%;
         left: -5%;
-        width: 9%;
-        height: 50%;
+        width: 8%;
+        height: 45%;
         border-radius: 50% 50% 50% 50%;
     }
 
@@ -241,7 +241,7 @@
 
     .about .container:nth-child(2) .intro-block h6 {
         text-align: left;
-        font-size: 2.3rem;
+        font-size: 1.8rem;
     }
 
     .about .container:nth-child(2) .intro-block p {
