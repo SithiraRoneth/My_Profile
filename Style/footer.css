@@ -222,8 +222,8 @@ footer img {
     }
 
     footer img {
-        width: 10%;
-        height: 10%;
-        display: none;
+        margin-top: 12%;
+        width: 20%;
+        height: 20%;
     }
 }
