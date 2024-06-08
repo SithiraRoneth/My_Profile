@@ -285,7 +285,7 @@
         left: 10%;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     .about .container:nth-child(5) {
         width: 100%;
         height: 190vh;

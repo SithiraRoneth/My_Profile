@@ -851,7 +851,7 @@ nav ul a:hover {
         bottom: 0;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     .title .cvButton {
         position: absolute;
         background-color: #40A2E3;

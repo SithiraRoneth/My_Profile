@@ -227,7 +227,7 @@ section>div>div>p {
 }
 
 /* Mobile Large */
-@media (max-width: 420px){
+@media (max-width: 425px){
     .about .container:nth-child(1){
         height: 95vh;
     }

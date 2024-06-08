@@ -168,7 +168,7 @@
 }
 
 /* Mobile Large */
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     .about > div.container:nth-child(3) {
         height: 130vh;
         display: flex;

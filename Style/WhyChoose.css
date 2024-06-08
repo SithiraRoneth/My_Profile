@@ -249,7 +249,7 @@
     }
 }
 /* Mobile Large */
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     .about .container:nth-child(2) h5 {
         right: 10%;
         text-align: right;
