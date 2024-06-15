@@ -203,3 +203,185 @@ background: #151515;
     color: #40A2E3;
     font-size: 2em;
 }
+@media (max-width: 425px) {
+    .about .container:nth-child(7) {
+        width: 100%;
+        height: 180vh;
+    }
+
+    .about .container:nth-child(7) h5 {
+        top: 2%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(7) h2 {
+        top: 4%;
+        left: 10%;
+    }
+
+    .container:nth-child(7) .row {
+        flex-direction: row;
+        top: 8%;
+        left: 25%;
+        width: 50%;
+        height: 80%;
+    }
+
+    .about .container:nth-child(7) .card{
+        width: 100%;
+        height: 30%;
+        transition: 0.5s;
+    }
+
+    .about .container:nth-child(7) .card:nth-child(1){
+        top: 0;
+        left: 0;
+    }
+
+    .about .container:nth-child(7) .card:nth-child(2){
+        top: 40%;
+        left: 0;
+    }
+
+    .about .container:nth-child(7) .card:nth-child(3){
+        top: 80%;
+        left: 0;
+    }
+
+    .about .container:nth-child(7) .card .face{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about .container:nth-child(7) .card .face.face1{
+        padding: 20px;
+    }
+
+    .about .container:nth-child(7) .card .face.face1 .content h2{
+        font-size: 2rem;
+        margin-top: 0;
+        margin-right: 18%;
+    }
+
+    .about .container:nth-child(7) .card .face.face1 ul{
+        font-size: 12px;
+        margin-top: 20%;
+        margin-left: 18% ;
+    }
+
+    .about .container:nth-child(7) .card .content a {
+        padding: 5px 5px;
+        font-size: 12px;
+        top: 80%;
+        left: 30%;
+    }
+
+    .about .container:nth-child(7) .card .face.face2{
+        transition: 0.5s;
+    }
+
+    .about .container:nth-child(7) .card:hover .face.face2 h2{
+        top: 0;
+        left: 12%;
+    }
+
+    .about .container:nth-child(7) .card .face.face2 h2{
+        margin-top: 18%;
+        padding: 5% 5% 5% 5%;
+        font-size: 7em;
+        transition: 0.5s;
+    }
+}
+@media (max-width: 320px) {
+    .about .container:nth-child(7) {
+        width: 100%;
+        height: 180vh;
+    }
+
+    .about .container:nth-child(7) h5 {
+        top: 2%;
+        left: 10%;
+    }
+
+    .about .container:nth-child(7) h2 {
+        top: 4%;
+        right: 100%;
+    }
+
+    .container:nth-child(7) .row {
+        flex-direction: row;
+        top: 8%;
+        left: 25%;
+        width: 50%;
+        height: 80%;
+    }
+
+    .about .container:nth-child(7) .card{
+        width: 100%;
+        height: 30%;
+        transition: 0.5s;
+    }
+
+    .about .container:nth-child(7) .card:nth-child(1){
+        top: 5%;
+        left: 0;
+    }
+
+    .about .container:nth-child(7) .card:nth-child(2){
+        top: 40%;
+        left: 0;
+    }
+
+    .about .container:nth-child(7) .card:nth-child(3){
+        top: 75%;
+        left: 0;
+    }
+
+    .about .container:nth-child(7) .card .face{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about .container:nth-child(7) .card .face.face1{
+        padding: 20px;
+    }
+
+    .about .container:nth-child(7) .card .face.face1 .content h2{
+        font-size: 2rem;
+        margin-top: 0;
+        margin-right: 18%;
+    }
+
+    .about .container:nth-child(7) .card .face.face1 ul{
+        font-size: 12px;
+        margin-top: 20%;
+        margin-left: 18% ;
+    }
+
+    .about .container:nth-child(7) .card .content a {
+        padding: 5px 5px;
+        font-size: 12px;
+        top: 80%;
+        left: 30%;
+    }
+
+    .about .container:nth-child(7) .card .face.face2{
+        transition: 0.5s;
+    }
+
+    .about .container:nth-child(7) .card:hover .face.face2 h2{
+        top: 0;
+        left: 12%;
+    }
+
+    .about .container:nth-child(7) .card .face.face2 h2{
+        margin-top: 18%;
+        padding: 5% 5% 5% 5%;
+        font-size: 7em;
+        transition: 0.5s;
+    }
+}

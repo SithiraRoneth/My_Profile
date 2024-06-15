@@ -49,14 +49,7 @@ a:hover {
 /**********************************************************************
 Header Section
 ***********************************************************************/
-.logo{
-    width: 100px;
-    margin-left: 10px;
-}
-.logo:hover{
-    animation-name: myLogo;
-    animation-duration: 3s;
-}
+
 @keyframes myLogo {
     from{
         width: 100px;
