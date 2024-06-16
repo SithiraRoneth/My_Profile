@@ -43,7 +43,7 @@ body {
     }
 }
 
-@media (min-width: 1024px){
+@media (max-width: 1024px){
     .side-nav {
         display: none;
         opacity: 70%;
@@ -65,7 +65,7 @@ body {
     }
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     .side-nav {
         display: none;
         opacity: 70%;
@@ -87,7 +87,7 @@ body {
     }
 }
 
-@media (min-width: 425px){
+@media (max-width: 425px){
     .side-nav {
         display: unset;
         opacity: 70%;
@@ -109,7 +109,7 @@ body {
     }
 }
 
-@media (min-width: 375px){
+@media (max-width: 375px){
     .side-nav {
         display: unset;
         opacity: 70%;
@@ -131,7 +131,7 @@ body {
     }
 }
 
-@media (min-width: 320px){
+@media (max-width: 320px){
     .side-nav {
         display: unset;
         opacity: 70%;
