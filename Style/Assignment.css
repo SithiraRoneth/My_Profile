@@ -293,6 +293,13 @@ background: #151515;
         font-size: 7em;
         transition: 0.5s;
     }
+    .about .container:nth-child(7) .card:hover .face.face2{
+        display: none;
+        height: 50px;
+        width: 50px;
+        top: 5%;
+        left: 50%;
+    }
 }
 @media (max-width: 320px) {
     .about .container:nth-child(7) {
@@ -358,7 +365,7 @@ background: #151515;
 
     .about .container:nth-child(7) .card .face.face1 ul{
         font-size: 12px;
-        margin-top: 20%;
+        margin-top: 40%;
         margin-left: 18% ;
     }
 
@@ -374,8 +381,8 @@ background: #151515;
     }
 
     .about .container:nth-child(7) .card:hover .face.face2 h2{
-        top: 0;
-        left: 12%;
+        top: -10%;
+        left: 9%;
     }
 
     .about .container:nth-child(7) .card .face.face2 h2{
@@ -383,5 +390,13 @@ background: #151515;
         padding: 5% 5% 5% 5%;
         font-size: 7em;
         transition: 0.5s;
+    }
+
+    .about .container:nth-child(7) .card:hover .face.face2{
+        display: none;
+        height: 50px;
+        width: 50px;
+        top: 5%;
+        left: 50%;
     }
 }
